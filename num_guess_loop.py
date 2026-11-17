@@ -25,7 +25,7 @@ def main():
                 else:
                     print("That is not the correct guess. please try again")
             else:
-                print("Sorry your guess is off range.")
+                print (f"{user_number_int} is off range.")
         except ValueError:
             print(f"{user_number_str} is not an integer")
     print("")
